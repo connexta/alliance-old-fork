@@ -16,7 +16,7 @@
     <parent>
         <groupId>org.codice.alliance</groupId>
         <artifactId>catalog</artifactId>
-        <version>0.1.ALPHA1-20160327T103000Z</version>
+        <version>0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>alliance-imaging</artifactId>

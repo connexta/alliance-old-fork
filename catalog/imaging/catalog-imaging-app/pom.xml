@@ -17,7 +17,7 @@
     <parent>
         <groupId>org.codice.alliance.imaging</groupId>
         <artifactId>alliance-imaging</artifactId>
-        <version>0.1.ALPHA1-20160327T103000Z</version>
+        <version>0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>alliance-imaging-app</artifactId>
