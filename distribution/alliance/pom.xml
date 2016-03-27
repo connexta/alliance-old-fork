@@ -12,14 +12,12 @@
  *
  **/
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.codice.alliance</groupId>
         <artifactId>distribution</artifactId>
-        <version>0.1-SNAPSHOT</version>
+        <version>0.1.ALPHA1-20160327T103000Z</version>
     </parent>
 
     <groupId>org.codice.alliance.distribution</groupId>
@@ -416,36 +414,28 @@
                         <configuration>
                             <tasks>
                                 <copy todir="${setup.folder}/documentation/ddf">
-                                    <fileset
-                                            dir="${setup.folder}/documentation/ddf/docs-${ddf.version}"/>
+                                    <fileset dir="${setup.folder}/documentation/ddf/docs-${ddf.version}" />
                                 </copy>
                                 <copy todir="${setup.folder}/documentation/admin">
-                                    <fileset
-                                            dir="${setup.folder}/documentation/admin/docs-${ddf.version}"/>
+                                    <fileset dir="${setup.folder}/documentation/admin/docs-${ddf.version}" />
                                 </copy>
                                 <copy todir="${setup.folder}/documentation/catalog">
-                                    <fileset
-                                            dir="${setup.folder}/documentation/catalog/docs-${ddf.version}"/>
+                                    <fileset dir="${setup.folder}/documentation/catalog/docs-${ddf.version}" />
                                 </copy>
                                 <copy todir="${setup.folder}/documentation/solr">
-                                    <fileset
-                                            dir="${setup.folder}/documentation/solr/docs-${ddf.version}"/>
+                                    <fileset dir="${setup.folder}/documentation/solr/docs-${ddf.version}" />
                                 </copy>
                                 <copy todir="${setup.folder}/documentation/platform">
-                                    <fileset
-                                            dir="${setup.folder}/documentation/platform/docs-${ddf.version}"/>
+                                    <fileset dir="${setup.folder}/documentation/platform/docs-${ddf.version}" />
                                 </copy>
                                 <copy todir="${setup.folder}/documentation/security">
-                                    <fileset
-                                            dir="${setup.folder}/documentation/security/docs-${ddf.version}"/>
+                                    <fileset dir="${setup.folder}/documentation/security/docs-${ddf.version}" />
                                 </copy>
                                 <copy todir="${setup.folder}/documentation/spatial">
-                                    <fileset
-                                            dir="${setup.folder}/documentation/spatial/docs-${ddf.version}"/>
+                                    <fileset dir="${setup.folder}/documentation/spatial/docs-${ddf.version}" />
                                 </copy>
                                 <copy todir="${setup.folder}/documentation/ui">
-                                    <fileset
-                                            dir="${setup.folder}/documentation/ui/docs-${ddf.version}"/>
+                                    <fileset dir="${setup.folder}/documentation/ui/docs-${ddf.version}" />
                                 </copy>
                             </tasks>
                         </configuration>

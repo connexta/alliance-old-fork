@@ -17,7 +17,7 @@
     <parent>
         <artifactId>alliance-imaging</artifactId>
         <groupId>org.codice.alliance.imaging</groupId>
-        <version>0.1-SNAPSHOT</version>
+        <version>0.1.ALPHA1-20160327T103000Z</version>
     </parent>
     <artifactId>alliance-imaging-transformer</artifactId>
     <packaging>bundle</packaging>
@@ -86,7 +86,7 @@
                             codice-imaging-nitf-core,
                             codice-imaging-nitf-render
                         </Embed-Dependency>
-                        <Export-Package/>
+                        <Export-Package />
                     </instructions>
                 </configuration>
             </plugin>
