@@ -17,7 +17,7 @@
     <parent>
         <groupId>org.codice</groupId>
         <artifactId>alliance</artifactId>
-        <version>0.1-SNAPSHOT</version>
+        <version>0.1.ALPHA1-20160328T011100Z</version>
     </parent>
 
     <artifactId>distribution</artifactId>

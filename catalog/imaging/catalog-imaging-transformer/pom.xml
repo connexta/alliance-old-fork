@@ -17,7 +17,7 @@
     <parent>
         <artifactId>alliance-imaging</artifactId>
         <groupId>org.codice.alliance.imaging</groupId>
-        <version>0.1-SNAPSHOT</version>
+        <version>0.1.ALPHA1-20160328T011100Z</version>
     </parent>
     <artifactId>alliance-imaging-transformer</artifactId>
     <packaging>bundle</packaging>
